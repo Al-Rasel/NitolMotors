@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".PrimaryInformationActivity" />
-        <activity android:name=".AssessmentActivity"></activity>
+        <activity android:name=".AssessmentActivity" />
+        <activity android:name=".ReportActivity"></activity>
     </application>
 
 </manifest>

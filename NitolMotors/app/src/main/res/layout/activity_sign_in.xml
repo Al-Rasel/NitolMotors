@@ -193,8 +193,9 @@
                     android:layout_weight="2.5"
                     android:background="@drawable/edit_text_back_with_border"
                     android:paddingLeft="16dp"
-                    android:text="SANJID RASHID"
+
                     android:textSize="14sp"
+                    android:hint="SANJID RASHID"
                     android:typeface="sans" />
 
             </LinearLayout>
@@ -233,8 +234,9 @@
                     android:background="@drawable/edit_text_back_with_border"
 
                     android:paddingLeft="16dp"
-                    android:text="20161044"
+
                     android:textSize="14sp"
+                    android:hint="20161044"
                     android:typeface="sans" />
 
             </LinearLayout>
