@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        tools:context="com.example.asus.nitolmotors.SignInActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/icon_nitol" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nitol_motors_ltd"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sales_verification_system"
+                        android:textColor="#f0252525"
+                        android:typeface="sans" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6px"
+            android:background="#000" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Branch: Uttara"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Client Name: Sanjid Rashid"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Employee ID: 20161044"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SL: 201612001"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Model: SE1613 CAB"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="16dp"
+
+            android:text="Primary Information"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            android:typeface="sans" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10px"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="8dp"
+
+            android:background="#000" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/back_sign_in"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:fadeScrollbars="false"
+                android:scrollbarSize="50dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+
+
+                        android:weightSum="4">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="3"
+                            android:gravity="left"
+                            android:text="Party is solvent or has other business than the proposed vehicle?"
+                            android:textColor="#000"
+                            android:textSize="13sp"
+                            android:typeface="sans" />
+
+
+                        <RelativeLayout
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="33dp"
+                            android:layout_gravity="center"
+
+                            android:layout_marginLeft="16dp"
+
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_text_back_with_border"
+                            android:paddingLeft="8dp"
+
+                            >
+
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+
+
+                                android:layout_gravity="center"
+
+                                android:text="Yes"
+
+
+                                android:textColor="#b5000000"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+
+                                android:src="@drawable/ic_arrow_drop_down_black_24dp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+
+
+                        android:weightSum="4">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="3"
+                            android:gravity="left"
+                            android:text="Operator is Driver himself with valid Driving License"
+                            android:textColor="#000"
+                            android:textSize="13sp"
+                            android:typeface="sans" />
+
+
+                        <RelativeLayout
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="33dp"
+                            android:layout_gravity="center"
+
+                            android:layout_marginLeft="16dp"
+
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_text_back_with_border"
+                            android:paddingLeft="8dp"
+
+                            >
+
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+
+
+                                android:layout_gravity="center"
+
+                                android:text="Yes"
+
+
+                                android:textColor="#b5000000"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+
+                                android:src="@drawable/ic_arrow_drop_down_black_24dp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+
+
+                        android:weightSum="4">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="3"
+                            android:gravity="left"
+                            android:text="Dependent to other to operate the vehicle"
+                            android:textColor="#000"
+                            android:textSize="13sp"
+                            android:typeface="sans" />
+
+
+                        <RelativeLayout
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="33dp"
+                            android:layout_gravity="center"
+
+                            android:layout_marginLeft="16dp"
+
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_text_back_with_border"
+                            android:paddingLeft="8dp"
+
+                            >
+
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+
+
+                                android:layout_gravity="center"
+
+                                android:text="Yes"
+
+
+                                android:textColor="#b5000000"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+
+                                android:src="@drawable/ic_arrow_drop_down_black_24dp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+
+
+                        android:weightSum="4">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="3"
+                            android:gravity="left"
+                            android:text="Existing vehicle owner of Competitors without overdue"
+                            android:textColor="#000"
+                            android:textSize="13sp"
+                            android:typeface="sans" />
+
+
+                        <RelativeLayout
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="33dp"
+                            android:layout_gravity="center"
+
+                            android:layout_marginLeft="16dp"
+
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_text_back_with_border"
+                            android:paddingLeft="8dp"
+
+                            >
+
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+
+
+                                android:layout_gravity="center"
+
+                                android:text="No"
+
+
+                                android:textColor="#b5000000"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+
+                                android:src="@drawable/ic_arrow_drop_down_black_24dp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+
+
+                        android:weightSum="4">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="3"
+                            android:gravity="left"
+                            android:text="Existing vehicle owner of competitors without overdue"
+                            android:textColor="#000"
+                            android:textSize="13sp"
+                            android:typeface="sans" />
+
+
+                        <RelativeLayout
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="33dp"
+                            android:layout_gravity="center"
+
+                            android:layout_marginLeft="16dp"
+
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_text_back_with_border"
+                            android:paddingLeft="8dp"
+
+                            >
+
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+
+
+                                android:layout_gravity="center"
+
+                                android:text="No"
+
+
+                                android:textColor="#b5000000"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+
+                                android:src="@drawable/ic_arrow_drop_down_black_24dp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+
+
+                        android:weightSum="4">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="3"
+                            android:gravity="left"
+                            android:text="Permanent Address verification"
+                            android:textColor="#000"
+                            android:textSize="13sp"
+                            android:typeface="sans" />
+
+
+                        <RelativeLayout
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="33dp"
+                            android:layout_gravity="center"
+
+                            android:layout_marginLeft="16dp"
+
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_text_back_with_border"
+                            android:paddingLeft="8dp"
+
+                            >
+
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+
+
+                                android:layout_gravity="center"
+
+                                android:text="Yes"
+
+
+                                android:textColor="#b5000000"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+
+                                android:src="@drawable/ic_arrow_drop_down_black_24dp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+
+            >
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36dp"
+                android:text="Click Report button to show the Party Status"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/textView_log_in"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+
+                android:layout_centerVertical="true"
+                android:layout_marginRight="36dp"
+
+                android:background="@drawable/edit_text_back_with_border"
+                android:paddingBottom="8dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:paddingTop="8dp"
+                android:text="Report"
+
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6px"
+            android:background="#000" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:text="Logged in: 20161044"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="Date: 19-Dec-2016"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="2px"
+                    android:layout_height="12dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="6dp"
+                    android:background="#000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:text="Time: 1:13 PM"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
