@@ -110,8 +110,6 @@ public class AssessmentActivity extends AppCompatActivity {
 
 
 
-        /* FragmentTransaction ft =getFragmentManager().beginTransaction();
-                MaterialDialogModelFragment fm = MaterialDialogModelFragment.newInstance(true);
-                fm.show(ft, "SelectModel");*/
+
     }
 }
